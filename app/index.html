@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="app">
 <head>
     <meta charset="utf-8">
     <title>My AngularJS App</title>
@@ -7,10 +7,11 @@
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="app.js"></script>
+    <script src="my-ctrl.js"></script>
+    <script src="our-service.js"></script>
+    <script src="multi-input.js"></script>
 </head>
 <body>
-
-
-
+    <div ng-view></div>
 </body>
 </html>
